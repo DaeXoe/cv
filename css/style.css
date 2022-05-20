@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  position: relative;
+  top: 267px;
+  margin: 0;
+  padding: 0;
+}
+
+nav menu ul li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav menu ul li a {
+  color: firebrick;
+  font-size: 2em;
+  margin: 0 20px;
+}
+
+/* aside.right-side {
+  display: flex;
+  align-content: flex-end;
+} */
+
+#avatar {
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.toplvl>ul>li {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.toplvl>ul>li> {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.toplvl>ul>li>ul>li {
+  color: dodgerblue;
+  font-weight: normal;
+}
